@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-int main(){
+int main() {
 
   const float ICMS = 0.17f;
   const float COFINS = 0.076f;
