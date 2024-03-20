@@ -3,10 +3,15 @@
 #include <stdio.h>
 
 int main() {
-  float nota1 = 5.5f;
-  float nota2 = 4.4f;
+  float nota1;
+  float nota2;
+  float media;
 
-  float media = 0.4 * nota1 + 0.6 * nota2;
+  printf("Nota 1: ");
+  int deu_certo = scanf("%f", &nota1);
+  printf("Nota 2: ");
+  deu_certo = scanf("%f", &nota2);
+  media = 0.4 * nota1 + 0.6 * nota2;
 
   printf("A media final é %f\n", media);
 
