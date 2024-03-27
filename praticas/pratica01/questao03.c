@@ -10,7 +10,7 @@ int main() {
   printf("Insira o valor do raio da pizza: ");
   int deu_certo = scanf("%i", &raio);
   float perimetro_da_pizza = 2*PI*raio;
-  printf("O perimetro da pizza é de %f\n", perimetro_da_pizza);
+  printf("O perimetro da pizza é de %.2fcm\n", perimetro_da_pizza);
   
   return 0;
 }
