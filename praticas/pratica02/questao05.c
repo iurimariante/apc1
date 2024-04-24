@@ -10,10 +10,10 @@ int main() {
 
   printf("Insira o peso: ");
   int deu_certo = scanf("%f", &peso);
-  printf("Insira a altura: ");
+  printf("Insira a altura em metros: ");
   deu_certo = scanf("%f", &altura);
 
-  imc = peso/(altura*altura);
+  imc = (peso/(altura*altura));
 
   printf("O IMC é igual a %f\n", imc);
   

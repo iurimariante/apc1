@@ -5,10 +5,14 @@
 #include <stdio.h>
 
 int main() {
-  float valor_da_hora_de_trabalho = 150.0f;
-  float total_de_horas_trabalhadas = 120.0f;
+  float valor_da_hora_de_trabalho;
+  float total_de_horas_trabalhadas;
   const float IR = 0.25f;
   const float INSS = 0.11f;
+  printf("Insira o total de horas trabalhadas: ");
+  int deu_certo = scanf("%f", &total_de_horas_trabalhadas);
+  printf("Insira o valor da hora de trabalho: ");
+  deu_certo = scanf("%f", &valor_da_hora_de_trabalho);
   float valor_salario_bruto = valor_da_hora_de_trabalho * total_de_horas_trabalhadas;
   float valor_imposto_de_renda = valor_salario_bruto * IR;
   float valor_imposto_previdencia = valor_salario_bruto * INSS;
